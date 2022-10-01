@@ -1,0 +1,136 @@
+.login_outer{
+    width:100%;
+    height: fit-content;
+}
+.login_inner{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(218, 209, 209);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+
+}
+.login_bg{
+    
+    width: 100%;
+    height: 45rem;
+    background: no-repeat center;
+    filter: opacity(0.2);
+    filter: blur(2px);
+    background-size: cover;
+    position: relative;
+    
+   
+}
+
+/* Add styles to the form container */
+.container {
+    position: absolute;
+    max-width: 355px;
+    height: fit-content;
+    padding: 20px;
+    margin-left: 39rem;
+    background-color: white;
+    justify-content: center;
+   
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.888) 0px 19px 38px, rgba(0, 0, 0, 0.888) 0px 15px 12px;
+   
+   
+}
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 90%;
+    padding: 17px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #d2cbcb;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /*style for the submit button */
+.btn_bg{
+
+    background-image: linear-gradient(to right, rgb(57, 57, 244), rgb(177, 83, 224)) ;
+    padding: 4px 4px;
+    /*margin:2px 2px;*/
+    width: 97%;
+    border-radius: 5px;
+   
+
+}
+.btn {
+    background-color: #9582da;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity:0.9;
+    font-size: medium;
+    
+}
+
+.btn span{
+   
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.btn:hover span {
+    padding-right: 25px;
+  }
+.btn:hover span:after{
+    opacity: 4;
+    right: 0;
+}
+  
+
+.btn2_bg{
+    background-image: linear-gradient(to right, rgb(57, 57, 244), rgb(177, 83, 224)) ;
+    padding: 4px 4px;
+    margin:8px 2px;
+    width: 97%;
+    border-radius: 5px;
+    
+    
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        background-color: #8f76e8;
+        font-size: medium;
+        color: white;
+        padding: 16px 0px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+       
+}
+
+.btn2:hover {
+    opacity: 4;
+    
+}
+
+    
